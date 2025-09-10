@@ -159,8 +159,8 @@ export function Contact() {
         <div className='container text-center'>
           <p>
             &copy; 2022 Sebastião Lucio React Land Page Template. Design by{' '}
-            <a href='https://github.com/rio3dstudios' rel='nofollow'>
-              Rio 3D Studios
+            <a href='https://github.com/swayampandit00/' rel='nofollow'>
+              Git-Hub
             </a>
           </p>
         </div>
