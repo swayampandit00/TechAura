@@ -15,6 +15,9 @@ import { Team } from './Components/Team';
 import { Services } from './Components/Services';
 import  {Register}  from './LoginAuth/Register.jsx';
 import  {Login}  from './LoginAuth/Login.jsx';
+import  {Service}  from './LoginAuth/Service.jsx';
+import  {Error}  from './LoginAuth/Error.jsx';
+
 
 
 
@@ -66,6 +69,9 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/service" element={<Service />} />
+        <Route path='*' element={<Error />} />
+
       </Routes>
 
     </BrowserRouter>
