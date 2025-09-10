@@ -70,7 +70,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="/service" element={<Service />} />
-        <Route path='*' element={<Error />} />
+        <Route path="*" element={<Error />} />
 
       </Routes>
 
